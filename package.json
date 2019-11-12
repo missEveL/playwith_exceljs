@@ -1,0 +1,21 @@
+{
+	"name": "playwith_exceljs",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.ts",
+	"scripts": {
+		"start": "./node_modules/.bin/ts-node index.ts",
+		"test": "./node_modules/.bin/tslint --project . --fix"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"exceljs": "^1.15.0",
+		"ts-node": "^8.3.0",
+		"typescript": "^3.5.3"
+	},
+	"devDependencies": {
+		"@types/exceljs": "^0.5.3",
+		"tslint": "^5.20.0"
+	}
+}
